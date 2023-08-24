@@ -8,8 +8,8 @@ const ExpenseItem = (props) => {
             <div>
                 <span className='badge badge-primary badge-pill mr-3'>
                     £{props.cost}
-                    <TiDelete size="1.5em"></TiDelete>
                 </span>
+                <TiDelete size="1.5em"></TiDelete>
             </div>
         </li>
     )
