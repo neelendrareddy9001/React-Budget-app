@@ -11,15 +11,15 @@ const App = () => {
   return (
     <AppProvider>
         <div className='container'>
-      <h1 className='mt-3'>My Budget Planner</h1>
+      <h1 className='m-4 text-center '>My Budget Planner</h1>
       <div className='row mt-3'>
         <div className='col-sm'>
           <Budget/>
         </div>
-        <div className='col-sm'>
+        <div className='col-sm p-2'>
           <Remaining/>
         </div>
-        <div className='col-sm'>
+        <div className='col-sm p-2'>
           <ExpenseTotal/>
         </div>
       </div>
